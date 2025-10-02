@@ -8,7 +8,7 @@ Unlike other RDMBS (Relational Database Management Systems), [PostgreSQL](https
 
 ## Installing & configuring PostgreSQL:
 
-**_`The following installation for fedora users`_**
+**_`The following installation is for fedora users.`_**
 
 1. **Update package metadata:**
 
@@ -267,7 +267,7 @@ That tries to connect to `mydb` as user `mahmoud`.
 
 #### 2. From the system shell (not inside psql yet):
 
--> You can connect directly using the `psql` command:**
+-> **You can connect directly using the `psql` command:**
 
 ~~~bash
 psql -U mahmoud -d mydb -h localhost -p 5432
